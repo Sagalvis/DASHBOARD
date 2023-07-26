@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const ContHeader = styled.header`
-  height: 5rem;
+  height: 8vh;
   width: 100%;
   background-color: #000;
   display: flex;

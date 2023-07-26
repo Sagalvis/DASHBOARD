@@ -1,9 +1,12 @@
 import { Routes, Route } from "react-router-dom";
 import { Home } from "../pages/Home";
-import { Estadisticas } from "../pages/Estadisticas";
-import { Productos } from "../pages/Productos";
-import {Diagramas} from "../pages/Diagramas";
-import {Reportes} from "../pages/Reportes";
+import { Player } from "../pages/Player";
+import {Club} from "../pages/Club";
+import {StatusPlayer} from "../pages/StatusPlayer";
+import { MatchDay } from "../pages/MatchDay";
+import {StatusGeneral} from "../pages/StatusGeneral";
+import { Stadium } from "../pages/Stadium";
+import { Positions } from "../pages/Positions";
 
 export function MyRoutes() {
   return (
@@ -11,10 +14,13 @@ export function MyRoutes() {
     
       <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/productos" element={<Productos />} />
-          <Route path="/estadisticas" element={<Estadisticas />} />
-          <Route path="/diagramas" element={<Diagramas />} />
-          <Route path="/reportes" element={<Reportes />} />
+          <Route path="/club" element={<Club />} />
+          <Route path="/player" element={<Player />} />
+          <Route path="/matchDay" element={<MatchDay/>} />
+          <Route path="/statusplayer" element={<StatusPlayer />} />
+          <Route path="/statusgeneral" element={<StatusGeneral />} />
+          <Route path="/stadium" element={<Stadium />} />
+          <Route path="/positions" element={< Positions/>} />
         </Routes>
     
   );

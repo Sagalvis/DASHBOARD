@@ -1,5 +1,7 @@
-import { AiOutlineLeft, AiOutlineHome, AiOutlineApartment, AiOutlineSetting} from "react-icons/ai";
+import { AiOutlineLeft, AiOutlineHome, AiOutlineSetting} from "react-icons/ai";
 import { MdOutlineAnalytics, MdLogout } from "react-icons/md";
+import {BsShield} from "react-icons/bs"
+import {TbPlayFootball} from "react-icons/tb"
 import { NavLink } from "react-router-dom";
 import styled from 'styled-components';
 import { ContainerMain, Divider, Imgcontent, LinkContainer, Linkicon, LogoSideBar, Logocontent, Sidebarbutton } from "./style.sidebar";
@@ -62,24 +64,39 @@ const linksArray = [
     to: "/",
   },
   {
-    label: "Estadisticas",
-    icon: <MdOutlineAnalytics />,
-    to: "/estadisticas",
+    label: "Club",
+    icon: <BsShield />,
+    to: "/Club",
   },
   {
-    label: "Productos",
-    icon: <AiOutlineApartment />,
-    to: "/productos",
+    label: "Player",
+    icon: <TbPlayFootball />,
+    to: "/Player",
   },
   {
-    label: "Diagramas",
+    label: "Macht Day",
     icon: <MdOutlineAnalytics />,
-    to: "/diagramas",
+    to: "/MatchDay",
   },
   {
-    label: "Reportes",
+    label: "Status Player",
     icon: <MdOutlineAnalytics />,
-    to: "/reportes",
+    to: "/StatusPlayer",
+  },
+  {
+    label: "Status General",
+    icon: <MdOutlineAnalytics />,
+    to: "/StatusGeneral",
+  },
+  {
+    label: "Stadium",
+    icon: <MdOutlineAnalytics />,
+    to: "/Stadium",
+  },
+  {
+    label: "Positions",
+    icon: <MdOutlineAnalytics />,
+    to: "/Positions",
   },
 ];
 const secondarylinksArray = [

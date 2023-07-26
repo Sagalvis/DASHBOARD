@@ -16,7 +16,7 @@ export const ContainerMain = styled.div`
     #021b79,
     #0575e6
   );
-  height: 100vh;
+  height: 89.9vh;
 `
 
 /* Boton que depliega la barra lateral (Pendiente de revisar la "top") */
@@ -26,6 +26,7 @@ export const Sidebarbutton = styled.button`
   right: -18px;
   width: 32px;
   height: 32px;
+  background-color: #000000;
   border-radius: 50%;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2), 0 0 7px 0 rgba(0, 0, 0, 0.15);
   display: flex;
