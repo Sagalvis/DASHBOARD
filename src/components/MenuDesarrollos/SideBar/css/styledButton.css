@@ -1,0 +1,49 @@
+.hamburger {
+	background: transparent;
+	border: none;
+	cursor: pointer;
+  height: 45px;
+}
+
+.hamburger span {
+	display: block;
+  margin-top: 5px;
+	background-color: rgb(251, 251, 251);
+	border-radius: 15px;
+	height: 5px;
+	width: 35px;
+	transition: 0.4s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hamburger:hover span {
+	background-color: rgb(248, 246, 246);
+}
+
+.hamburger-in:hover span:nth-child(1) {
+	width: 25px;
+	transform: translateY(4px) rotate(-25deg);
+}
+.hamburger-in:hover span:nth-child(2) {
+	width: 40px;
+}
+.hamburger-in:hover span:nth-child(3) {
+	width: 25px;
+	transform: translateY(-4px) rotate(25deg);
+}
+
+
+.hamburger-out:hover span:nth-child(1) {
+	width: 25px;
+	transform: translate(14px, 4px) rotate(-155deg);
+}
+.hamburger-out:hover span:nth-child(2) {
+	width: 40px;
+}
+.hamburger-out:hover span:nth-child(3) {
+	width: 25px;
+	transform: translate(14px, -4px) rotate(155deg);
+}

@@ -1,15 +1,15 @@
 import React from 'react'
-import MenuDesplegable from './Header/Menu/index.menu';
+import MenuDesplegable from './MenuDesarrollos/indexMenuD';
 import { Fragment } from 'react';
 import { ContainerMain } from './styled';
-import HeaderP from './Header/index.header';
+/* import HeaderP from './Header/index.header'; */
 
 
 const Dashboard = () => {
   return ( 
     <Fragment>
       <ContainerMain>
-        <HeaderP/>
+        {/* <HeaderP/> */}
         <MenuDesplegable/>
       </ContainerMain>
     </Fragment>
