@@ -14,7 +14,7 @@ export const ContainerMain = styled.div`
 /* Boton que depliega la barra lateral (Pendiente de revisar la "top") */
 export const Sidebarbutton = styled.div`
   position: absolute;
-  top: 43px; 
+  top: 70px; 
   right: -18px;
   width: 50px;
   height: 50px;
@@ -61,11 +61,6 @@ export const Linkicon = styled.div`
   svg {
     font-size: 35px;
   }
-  &.active {
-    svg {
-      font-size: 35px;
-    }
-  }
 `;
 
 
@@ -78,3 +73,13 @@ export const Divider = styled.div`
   background: gray;
   margin: 48px 0; 
 `;
+
+export const Titulo = styled.button`
+  font-family: 'Faster One', cursive;
+  color: white;
+  font-size: 2.7rem;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+`

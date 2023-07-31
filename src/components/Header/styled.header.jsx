@@ -12,15 +12,7 @@ export const ContHeader = styled.header`
 
 
 
-export const Titulo = styled.button`
-  font-family: 'Faster One', cursive;
-  color: white;
-  font-size: 4rem;
-  background-color: transparent;
-  outline: none;
-  border: none;
-  cursor: pointer;
-`
+
 export const ContainerProfileNameRol = styled.div`
   /* border: 1px solid white; */
   width: 12rem;

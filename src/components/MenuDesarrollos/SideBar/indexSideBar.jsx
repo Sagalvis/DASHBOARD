@@ -4,7 +4,7 @@ import {BsShield} from "react-icons/bs"
 import {TbPlayFootball} from "react-icons/tb"
 import { NavLink } from "react-router-dom";
 import styled from 'styled-components';
-import { ContainerMain, Divider, Imgcontent, LinkContainer, Linkicon, LogoSideBar, Logocontent, Sidebarbutton } from "./styledSideBar";
+import { ContainerMain, Divider,  LinkContainer, Linkicon,  Logocontent, Sidebarbutton, Titulo } from "./styledSideBar";
 import "./css/styledButton.css"
 
 export function Sidebar({ sidebarOpen, setSidebarOpen }) {
@@ -36,9 +36,7 @@ export function Sidebar({ sidebarOpen, setSidebarOpen }) {
 					</button>
       </Sidebarbutton>
       <Logocontent>
-        <Imgcontent>
-        <LogoSideBar/>
-        </Imgcontent>
+          <Titulo>SocceTech</Titulo>
       </Logocontent>
       <Divider/>
       {linksArray.map(({ icon, label, to }) => (
